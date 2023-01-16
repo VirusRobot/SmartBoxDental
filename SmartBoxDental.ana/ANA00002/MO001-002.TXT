@@ -1,0 +1,14 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Article		NFI		nouveau fichier
+Bon_Achat		NFI		nouveau fichier
+Fournisseur		NFI		nouveau fichier
+Contrainte_Patient_Planification		NWL	Patient (IDPatient) et Planification (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Planification (IDPatient)
+Contrainte_Patient_Ordonnance		NWL	Patient (IDPatient) et Ordonnance (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Ordonnance (IDPatient)
+Article	Code_Barres	RRN		
+Article	Quantite_Art_Initial	RRN		
+Article	Quantite_Art_Actual	RRN		
+Article	TVA_Article	RRN		
+Fournisseur	Adresse_Four	RRN		
+Fournisseur	Fax_Four	RRN		
+Fournisseur	Email_Four	RRN		
+Fournisseur	Site_Web_Four	RRN		

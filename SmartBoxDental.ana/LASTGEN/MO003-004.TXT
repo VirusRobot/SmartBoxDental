@@ -1,0 +1,17 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+Frais		TAR	71	nouvelle taille enregistrement : 71
+Frais	IDFacture_Patient	RUB+		IDFacture_Patient est une nouvelle clé
+Bon_Achat		TAR	64	nouvelle taille enregistrement : 64
+Bon_Achat	IDFournisseur	RUB+		IDFournisseur est une nouvelle clé
+Facture_Patient		NFI		nouveau fichier
+Item		NFI		nouveau fichier
+Parametre_Generale		NFI		nouveau fichier
+Contrainte_Facture_Patient_Frais		NWL	Facture_Patient (IDFacture_Patient) et Frais (IDFacture_Patient)	Nouvelle liaison entre les fichiers Facture_Patient (IDFacture_Patient) et Frais (IDFacture_Patient)
+Contrainte_Article_Facture_Patient		NWL	Article (IDArticle) et Facture_Patient (IDArticle)	Nouvelle liaison entre les fichiers Article (IDArticle) et Facture_Patient (IDArticle)
+Contrainte_Item_Facture_Patient		NWL	Item (IDItem) et Facture_Patient (IDItem)	Nouvelle liaison entre les fichiers Item (IDItem) et Facture_Patient (IDItem)
+Contrainte_Article_Bon_Achat		NWL	Article (IDArticle) et Bon_Achat (IDArticle)	Nouvelle liaison entre les fichiers Article (IDArticle) et Bon_Achat (IDArticle)
+Contrainte_User_Caisse		NWL	User (IDUser) et Caisse (IDUser)	Nouvelle liaison entre les fichiers User (IDUser) et Caisse (IDUser)
+Contrainte_Parametre_User		NWL	Parametre (IDParametre) et User (IDParametre)	Nouvelle liaison entre les fichiers Parametre (IDParametre) et User (IDParametre)
+Contrainte_Patient_Frais		NWL	Patient (IDPatient) et Frais (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Frais (IDPatient)
+Contrainte_Fournisseur_Bon_Achat		NWL	Fournisseur (IDFournisseur) et Bon_Achat (IDFournisseur)	Nouvelle liaison entre les fichiers Fournisseur (IDFournisseur) et Bon_Achat (IDFournisseur)
+Facture_Patient	Date_Facture	RRN		

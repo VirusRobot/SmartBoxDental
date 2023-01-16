@@ -1,0 +1,3 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Radio		NFI		nouveau fichier
+Contrainte_Radio_Patient		NWL	Patient (IDPatient) et Radio (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Radio (IDPatient)

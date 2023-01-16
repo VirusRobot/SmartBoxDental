@@ -1,0 +1,19 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Caisse		NFI		nouveau fichier
+User		NFI		nouveau fichier
+Parametre		NFI		nouveau fichier
+Planification		NFI		nouveau fichier
+Patient		NFI		nouveau fichier
+Ordonnance		NFI		nouveau fichier
+Frais		NFI		nouveau fichier
+Caisse	DateOuverture	RRN		
+Caisse	DateFermeture	RRN		
+Patient	Nom_Patient	RRN		
+Patient	Prenom_Patient	RRN		
+Patient	Date_NS_Patient	RRN		
+Patient	Adresse_Patient	RRN		
+Patient	Email_Patient	RRN		
+Frais	Montant_Total	RRN		
+Frais	Montant_Versement	RRN		
+Frais	Montant_Reste	RRN		
+Patient	Civilité	RRN		
